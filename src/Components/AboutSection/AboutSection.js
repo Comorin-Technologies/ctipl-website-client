@@ -1,3 +1,4 @@
+import "./AboutSection.css";
 import AnimatedNumbers from "react-animated-numbers";
 import miniatureLogo from "../../Assets/AboutSection/CT_Miniature Logo.png";
 import aboutsecimg from "../../Assets/AboutSection/aboutImg.jpg";
@@ -19,6 +20,7 @@ export function AboutSection() {
   ];
   return (
     <div>
+      <a name="aboutPage"></a>
       <div className="aboutpage-bg">
         <div className="aboutpage-maindiv">
           <div className="aboutpage-img">
@@ -74,7 +76,6 @@ export function AboutSection() {
           </div>
         </div>
       </div>
-      ;
     </div>
   );
 }

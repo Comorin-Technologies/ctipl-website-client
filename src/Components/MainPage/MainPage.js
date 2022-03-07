@@ -5,6 +5,8 @@ import { NavBar } from "../NavBar/NavBar.js";
 import { Slide } from "react-slideshow-image";
 import AnimatedText from "react-animated-text-content";
 import "react-slideshow-image/dist/styles.css";
+import { AboutSection } from "../AboutSection/AboutSection.js";
+import { OurOfferings } from "../OurOfferings/OurOfferings.js";
 import {
   HomeSlideImages,
   solutions,
@@ -12,7 +14,6 @@ import {
   locations,
   submit,
 } from "./MainPageHelper.js";
-import { AboutSection } from "../AboutSection/AboutSection.js";
 
 export function MainPage() {
   const [name, setName] = useState();
@@ -110,6 +111,9 @@ export function MainPage() {
       </div>
       <div>
         <AboutSection />
+      </div>
+      <div>
+        <OurOfferings />
       </div>
     </div>
   );

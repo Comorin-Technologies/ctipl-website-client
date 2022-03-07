@@ -28,9 +28,9 @@ export function NavBar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-links" to="/about">
+              <a className="nav-link nav-links" href="#aboutPage">
                 About Us
-              </Link>
+              </a>
             </li>
             <li className="nav-item dropdown">
               <a
